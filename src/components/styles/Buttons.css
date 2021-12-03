@@ -1,0 +1,28 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 24px 24px;
+  }
+  .button-container a {
+    display: block;
+    width: 100%;
+  }
+
+  .button-container  button {
+    font-family: "Red Hat Display", sans-serif;
+    height: 48px;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 4px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .button-container__payment {
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+  }
+  .button-container__cancel {
+    background-color: var(--Very-pale-blue);
+    color: var(--Desaturated-blue);
+  }

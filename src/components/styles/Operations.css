@@ -1,0 +1,44 @@
+.operation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 8px 24px 24px 24px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--Very-pale-blue);
+  }
+  .operation-container input{
+  font-family: "Red Hat Display", sans-serif;
+  height: 32px;
+  border: 1px solid var(--Desaturated-blue);
+  border-radius: 12px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  outline: none;
+  text-align: center;
+}
+.operation-container__resultado{
+  position: relative;
+  border: 1px solid var(--Desaturated-blue);
+  border-radius: 12px;
+  margin-top: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .operation-container__resultado span{
+    position: absolute;
+    font-size: 12px;
+    top: -13px;
+    left: 15px;
+    border: 1px solid var(--Desaturated-blue);
+    border-radius: 8px;
+    padding: 2px 8px;
+    background-color: var(--Pale-blue);
+  }
+  .operation-container__resultado p{
+    margin: 0;
+  }

@@ -1,0 +1,14 @@
+main {
+    text-align: center;
+  }
+  
+main h1 {
+    font-weight: 900;
+}
+  
+main p {
+    margin: 0 24px 24px 24px;
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    line-height: 24px;
+}

@@ -1,0 +1,13 @@
+.triangulo-card {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 85%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  .triangulo-card header img {
+    height: 148px;
+    width: 100%;
+  }
